@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+header {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.nav-links {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+}
+
+.photo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: center;
+  gap: 1rem;
+}
+
+.photo {
+  list-style: none;
+  border: solid 1px black;
+  padding: 1rem;
+}
+
+.photo-list a {
+  text-decoration: initial;
+  color: initial;
+}
